@@ -54,7 +54,9 @@ fun LoginScreen() {
             onValueChange = {password.value = it }, ///it es
             placeholder = { Text("password") }/// muestra el componente pero cunado se escribe se termina
         )
+
         Spacer(modifier = Modifier.height(40.dp))
+
 
         Button(
           modifier = Modifier.fillMaxWidth()
