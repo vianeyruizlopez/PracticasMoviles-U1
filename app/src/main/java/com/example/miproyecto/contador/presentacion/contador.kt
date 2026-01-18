@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable///todos los composeibols empiezan con fun
 fun ContadorScreen(viewModel: ContadorViewModel = viewModel()){/// tengo que pasarle
