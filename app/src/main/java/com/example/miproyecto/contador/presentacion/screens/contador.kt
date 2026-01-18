@@ -1,4 +1,4 @@
-package com.example.miproyecto.contador.presentacion
+package com.example.miproyecto.contador.presentacion.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -16,6 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.miproyecto.contador.presentacion.viewmodels.ContadorViewModel
 
 @Composable///todos los composeibols empiezan con fun
 fun ContadorScreen(viewModel: ContadorViewModel = viewModel()){/// tengo que pasarle
@@ -50,7 +51,7 @@ fun ContadorScreen(viewModel: ContadorViewModel = viewModel()){/// tengo que pas
         }
 
 
-    }
+}
 @Preview(showBackground = true)
 @Composable
 fun ContadorScreenPreview(){

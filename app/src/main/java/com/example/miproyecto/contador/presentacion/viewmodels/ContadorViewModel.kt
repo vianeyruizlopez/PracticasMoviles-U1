@@ -1,4 +1,4 @@
-package com.example.miproyecto.contador.presentacion
+package com.example.miproyecto.contador.presentacion.viewmodels
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
