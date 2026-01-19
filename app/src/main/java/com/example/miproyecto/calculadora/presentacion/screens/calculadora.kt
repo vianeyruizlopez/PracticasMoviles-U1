@@ -33,7 +33,7 @@ fun Calculadora(){
                 .fillMaxWidth()) {
             Text(
                 text = "0",//AQUI VA EL NUMERO QUE SE MUESTRA
-                fontSize = 48.sp,///para aumentar el tamaño de letras
+                fontSize = 70.sp,///para aumentar el tamaño de letras
                 color = Color.White
             )
         }
@@ -44,6 +44,48 @@ fun Calculadora(){
                 .background(color = Color.White)
                 .fillMaxWidth()
         ){
+
+            Row(
+                modifier = Modifier.weight(1f).fillMaxWidth()
+            ) {
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "C",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "()",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "%",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "/",fontSize =35.sp)
+                }
+            }
+
             Row(
                 modifier = Modifier.weight(1f)
                     .fillMaxWidth()
@@ -84,7 +126,7 @@ fun Calculadora(){
                         .padding(10.dp)
                         .fillMaxHeight()
                 ) {
-                    Text(text = "/",fontSize =35.sp)
+                    Text(text = "*",fontSize =35.sp)
                 }
             }
 
@@ -96,6 +138,7 @@ fun Calculadora(){
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
                     Text(text = "4",fontSize =35.sp)
                 }
@@ -104,61 +147,27 @@ fun Calculadora(){
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "5")
+                    Text(text = "5",fontSize =35.sp)
                 }
                 Button(
                     onClick = {},
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "6")
+                    Text(text = "6",fontSize =35.sp)
                 }
                 Button(
                     onClick = {},
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "*")
-                }
-            }
-
-            Row(
-                modifier = Modifier.weight(1f).fillMaxWidth()
-            ) {
-                Button(
-                    onClick = {},
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(10.dp)
-                ) {
-                    Text(text = "1")
-                }
-                Button(
-                    onClick = {},
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(10.dp)
-                ) {
-                    Text(text = "2")
-                }
-                Button(
-                    onClick = {},
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(10.dp)
-                ) {
-                    Text(text = "3")
-                }
-                Button(
-                    onClick = {},
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(10.dp)
-                ) {
-                    Text(text = "-")
+                    Text(text = "-",fontSize =35.sp)
                 }
             }
 
@@ -170,32 +179,77 @@ fun Calculadora(){
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "0")
+                    Text(text = "1",fontSize =35.sp)
                 }
                 Button(
                     onClick = {},
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = ".")
+                    Text(text = "2",fontSize =35.sp)
                 }
                 Button(
                     onClick = {},
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "+")
+                    Text(text = "3",fontSize =35.sp)
                 }
                 Button(
                     onClick = {},
                     modifier = Modifier
                         .weight(1f)
                         .padding(10.dp)
+                        .fillMaxHeight()
                 ) {
-                    Text(text = "=")
+                    Text(text = "+",fontSize =35.sp)
+                }
+            }
+
+            Row(
+                modifier = Modifier.weight(1f).fillMaxWidth()
+            ) {
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "0",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = ".",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "B",fontSize =35.sp)
+                }
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(10.dp)
+                        .fillMaxHeight()
+                ) {
+                    Text(text = "=",fontSize =35.sp)
                 }
             }
 
