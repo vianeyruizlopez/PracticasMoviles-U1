@@ -41,7 +41,7 @@ fun Calculadora(){
         Column (
             modifier = Modifier ///COLUMNA  y 5f representan el 100 porciento de la pantralla
                 .weight(4f) ///entonces 1f=20 porciento  en hay que darle dimenciones con la propiedad weinhg
-                .background(color = Color.White)
+                .background(color = Color.LightGray)
                 .fillMaxWidth()
         ){
 
