@@ -126,7 +126,7 @@ fun Calculadora(){
                         .padding(10.dp)
                         .fillMaxHeight()
                 ) {
-                    Text(text = "*",fontSize =35.sp)
+                    Text(text = "X",fontSize =35.sp)
                 }
             }
 
